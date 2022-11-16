@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		456CB3D129116A8100C2A1EF /* svolta_serate_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CB3D029116A8100C2A1EF /* svolta_serate_iOSApp.swift */; };
+		456CB3D329116A8100C2A1EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CB3D229116A8100C2A1EF /* ContentView.swift */; };
+		456CB3D529116A8200C2A1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456CB3D429116A8200C2A1EF /* Assets.xcassets */; };
+		456CB3D829116A8200C2A1EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456CB3D729116A8200C2A1EF /* Preview Assets.xcassets */; };
+		456CB3E229116A8200C2A1EF /* svolta_serate_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CB3E129116A8200C2A1EF /* svolta_serate_iOSTests.swift */; };
+		456CB3EC29116A8200C2A1EF /* svolta_serate_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CB3EB29116A8200C2A1EF /* svolta_serate_iOSUITests.swift */; };
+		456CB3EE29116A8200C2A1EF /* svolta_serate_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CB3ED29116A8200C2A1EF /* svolta_serate_iOSUITestsLaunchTests.swift */; };
+		456CB3FB29116AAD00C2A1EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 456CB3FA29116AAC00C2A1EF /* GoogleService-Info.plist */; };
+		456CB3FE29116C7500C2A1EF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 456CB3FD29116C7500C2A1EF /* FirebaseAnalytics */; };
+		456CB40029116C7500C2A1EF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 456CB3FF29116C7500C2A1EF /* FirebaseAuth */; };
+		456CB40229116C7500C2A1EF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 456CB40129116C7500C2A1EF /* FirebaseFirestore */; };
+		456CB40429116C7500C2A1EF /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 456CB40329116C7500C2A1EF /* FirebaseFirestoreSwift */; };
+		456CB40629116C7500C2A1EF /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 456CB40529116C7500C2A1EF /* FirebaseFunctions */; };
+		456CB40829116C7500C2A1EF /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 456CB40729116C7500C2A1EF /* FirebaseMessaging */; };
+		456CB40A29116C7500C2A1EF /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 456CB40929116C7500C2A1EF /* FirebasePerformance */; };
+		456CB40C29116C7500C2A1EF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 456CB40B29116C7500C2A1EF /* FirebaseStorage */; };
+		456CB41229116E3E00C2A1EF /* Evento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CB41129116E3E00C2A1EF /* Evento.swift */; };
+		457775C52925720E00D84DA0 /* MappaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457775C42925720D00D84DA0 /* MappaView.swift */; };
+		457775C72925744A00D84DA0 /* Posizione.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457775C62925744A00D84DA0 /* Posizione.swift */; };
+		457775CA29257D3A00D84DA0 /* ListaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457775C929257D3A00D84DA0 /* ListaView.swift */; };
+		457775CC29257FA600D84DA0 /* Blurhash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457775CB29257FA600D84DA0 /* Blurhash.swift */; };
+		457775CF2925802200D84DA0 /* BlurhashImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457775CE2925802200D84DA0 /* BlurhashImage.swift */; };
+		457775D12925828B00D84DA0 /* DettaglioEventoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457775D02925828B00D84DA0 /* DettaglioEventoView.swift */; };
+		45A81518291197FD0009AE32 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A81517291197FD0009AE32 /* Functions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		456CB3DE29116A8200C2A1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456CB3C529116A8100C2A1EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456CB3CC29116A8100C2A1EF;
+			remoteInfo = "svolta-serate-iOS";
+		};
+		456CB3E829116A8200C2A1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456CB3C529116A8100C2A1EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456CB3CC29116A8100C2A1EF;
+			remoteInfo = "svolta-serate-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		456CB3CD29116A8100C2A1EF /* svolta-serate-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "svolta-serate-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		456CB3D029116A8100C2A1EF /* svolta_serate_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = svolta_serate_iOSApp.swift; sourceTree = "<group>"; };
+		456CB3D229116A8100C2A1EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		456CB3D429116A8200C2A1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		456CB3D729116A8200C2A1EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		456CB3DD29116A8200C2A1EF /* svolta-serate-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "svolta-serate-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		456CB3E129116A8200C2A1EF /* svolta_serate_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = svolta_serate_iOSTests.swift; sourceTree = "<group>"; };
+		456CB3E729116A8200C2A1EF /* svolta-serate-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "svolta-serate-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		456CB3EB29116A8200C2A1EF /* svolta_serate_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = svolta_serate_iOSUITests.swift; sourceTree = "<group>"; };
+		456CB3ED29116A8200C2A1EF /* svolta_serate_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = svolta_serate_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		456CB3FA29116AAC00C2A1EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		456CB41129116E3E00C2A1EF /* Evento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Evento.swift; sourceTree = "<group>"; };
+		457775C42925720D00D84DA0 /* MappaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappaView.swift; sourceTree = "<group>"; };
+		457775C62925744A00D84DA0 /* Posizione.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posizione.swift; sourceTree = "<group>"; };
+		457775C929257D3A00D84DA0 /* ListaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaView.swift; sourceTree = "<group>"; };
+		457775CB29257FA600D84DA0 /* Blurhash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blurhash.swift; sourceTree = "<group>"; };
+		457775CE2925802200D84DA0 /* BlurhashImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurhashImage.swift; sourceTree = "<group>"; };
+		457775D02925828B00D84DA0 /* DettaglioEventoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DettaglioEventoView.swift; sourceTree = "<group>"; };
+		45A81517291197FD0009AE32 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		456CB3CA29116A8100C2A1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456CB40A29116C7500C2A1EF /* FirebasePerformance in Frameworks */,
+				456CB40829116C7500C2A1EF /* FirebaseMessaging in Frameworks */,
+				456CB3FE29116C7500C2A1EF /* FirebaseAnalytics in Frameworks */,
+				456CB40029116C7500C2A1EF /* FirebaseAuth in Frameworks */,
+				456CB40629116C7500C2A1EF /* FirebaseFunctions in Frameworks */,
+				456CB40C29116C7500C2A1EF /* FirebaseStorage in Frameworks */,
+				456CB40229116C7500C2A1EF /* FirebaseFirestore in Frameworks */,
+				456CB40429116C7500C2A1EF /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456CB3DA29116A8200C2A1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456CB3E429116A8200C2A1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		456CB3C429116A8100C2A1EF = {
+			isa = PBXGroup;
+			children = (
+				456CB3CF29116A8100C2A1EF /* svolta-serate-iOS */,
+				456CB3E029116A8200C2A1EF /* svolta-serate-iOSTests */,
+				456CB3EA29116A8200C2A1EF /* svolta-serate-iOSUITests */,
+				456CB3CE29116A8100C2A1EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		456CB3CE29116A8100C2A1EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456CB3CD29116A8100C2A1EF /* svolta-serate-iOS.app */,
+				456CB3DD29116A8200C2A1EF /* svolta-serate-iOSTests.xctest */,
+				456CB3E729116A8200C2A1EF /* svolta-serate-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		456CB3CF29116A8100C2A1EF /* svolta-serate-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				457775CD2925801600D84DA0 /* Components */,
+				457775C829257D2700D84DA0 /* Views */,
+				45A81516291197F40009AE32 /* Utils */,
+				456CB41029116E2E00C2A1EF /* Classes */,
+				456CB3FA29116AAC00C2A1EF /* GoogleService-Info.plist */,
+				456CB3D029116A8100C2A1EF /* svolta_serate_iOSApp.swift */,
+				456CB3D229116A8100C2A1EF /* ContentView.swift */,
+				456CB3D429116A8200C2A1EF /* Assets.xcassets */,
+				456CB3D629116A8200C2A1EF /* Preview Content */,
+			);
+			path = "svolta-serate-iOS";
+			sourceTree = "<group>";
+		};
+		456CB3D629116A8200C2A1EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				456CB3D729116A8200C2A1EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		456CB3E029116A8200C2A1EF /* svolta-serate-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				456CB3E129116A8200C2A1EF /* svolta_serate_iOSTests.swift */,
+			);
+			path = "svolta-serate-iOSTests";
+			sourceTree = "<group>";
+		};
+		456CB3EA29116A8200C2A1EF /* svolta-serate-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				456CB3EB29116A8200C2A1EF /* svolta_serate_iOSUITests.swift */,
+				456CB3ED29116A8200C2A1EF /* svolta_serate_iOSUITestsLaunchTests.swift */,
+			);
+			path = "svolta-serate-iOSUITests";
+			sourceTree = "<group>";
+		};
+		456CB41029116E2E00C2A1EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				456CB41129116E3E00C2A1EF /* Evento.swift */,
+				457775C62925744A00D84DA0 /* Posizione.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		457775C829257D2700D84DA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				457775C42925720D00D84DA0 /* MappaView.swift */,
+				457775C929257D3A00D84DA0 /* ListaView.swift */,
+				457775D02925828B00D84DA0 /* DettaglioEventoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		457775CD2925801600D84DA0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				457775CE2925802200D84DA0 /* BlurhashImage.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		45A81516291197F40009AE32 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				45A81517291197FD0009AE32 /* Functions.swift */,
+				457775CB29257FA600D84DA0 /* Blurhash.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		456CB3CC29116A8100C2A1EF /* svolta-serate-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456CB3F129116A8200C2A1EF /* Build configuration list for PBXNativeTarget "svolta-serate-iOS" */;
+			buildPhases = (
+				456CB3C929116A8100C2A1EF /* Sources */,
+				456CB3CA29116A8100C2A1EF /* Frameworks */,
+				456CB3CB29116A8100C2A1EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "svolta-serate-iOS";
+			packageProductDependencies = (
+				456CB3FD29116C7500C2A1EF /* FirebaseAnalytics */,
+				456CB3FF29116C7500C2A1EF /* FirebaseAuth */,
+				456CB40129116C7500C2A1EF /* FirebaseFirestore */,
+				456CB40329116C7500C2A1EF /* FirebaseFirestoreSwift */,
+				456CB40529116C7500C2A1EF /* FirebaseFunctions */,
+				456CB40729116C7500C2A1EF /* FirebaseMessaging */,
+				456CB40929116C7500C2A1EF /* FirebasePerformance */,
+				456CB40B29116C7500C2A1EF /* FirebaseStorage */,
+			);
+			productName = "svolta-serate-iOS";
+			productReference = 456CB3CD29116A8100C2A1EF /* svolta-serate-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		456CB3DC29116A8200C2A1EF /* svolta-serate-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456CB3F429116A8200C2A1EF /* Build configuration list for PBXNativeTarget "svolta-serate-iOSTests" */;
+			buildPhases = (
+				456CB3D929116A8200C2A1EF /* Sources */,
+				456CB3DA29116A8200C2A1EF /* Frameworks */,
+				456CB3DB29116A8200C2A1EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456CB3DF29116A8200C2A1EF /* PBXTargetDependency */,
+			);
+			name = "svolta-serate-iOSTests";
+			productName = "svolta-serate-iOSTests";
+			productReference = 456CB3DD29116A8200C2A1EF /* svolta-serate-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		456CB3E629116A8200C2A1EF /* svolta-serate-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456CB3F729116A8200C2A1EF /* Build configuration list for PBXNativeTarget "svolta-serate-iOSUITests" */;
+			buildPhases = (
+				456CB3E329116A8200C2A1EF /* Sources */,
+				456CB3E429116A8200C2A1EF /* Frameworks */,
+				456CB3E529116A8200C2A1EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456CB3E929116A8200C2A1EF /* PBXTargetDependency */,
+			);
+			name = "svolta-serate-iOSUITests";
+			productName = "svolta-serate-iOSUITests";
+			productReference = 456CB3E729116A8200C2A1EF /* svolta-serate-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		456CB3C529116A8100C2A1EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					456CB3CC29116A8100C2A1EF = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					456CB3DC29116A8200C2A1EF = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 456CB3CC29116A8100C2A1EF;
+					};
+					456CB3E629116A8200C2A1EF = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 456CB3CC29116A8100C2A1EF;
+					};
+				};
+			};
+			buildConfigurationList = 456CB3C829116A8100C2A1EF /* Build configuration list for PBXProject "svolta-serate-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 456CB3C429116A8100C2A1EF;
+			packageReferences = (
+				456CB3FC29116C7500C2A1EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 456CB3CE29116A8100C2A1EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456CB3CC29116A8100C2A1EF /* svolta-serate-iOS */,
+				456CB3DC29116A8200C2A1EF /* svolta-serate-iOSTests */,
+				456CB3E629116A8200C2A1EF /* svolta-serate-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		456CB3CB29116A8100C2A1EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456CB3D829116A8200C2A1EF /* Preview Assets.xcassets in Resources */,
+				456CB3D529116A8200C2A1EF /* Assets.xcassets in Resources */,
+				456CB3FB29116AAD00C2A1EF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456CB3DB29116A8200C2A1EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456CB3E529116A8200C2A1EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		456CB3C929116A8100C2A1EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457775C72925744A00D84DA0 /* Posizione.swift in Sources */,
+				457775CA29257D3A00D84DA0 /* ListaView.swift in Sources */,
+				457775CC29257FA600D84DA0 /* Blurhash.swift in Sources */,
+				457775CF2925802200D84DA0 /* BlurhashImage.swift in Sources */,
+				457775C52925720E00D84DA0 /* MappaView.swift in Sources */,
+				456CB41229116E3E00C2A1EF /* Evento.swift in Sources */,
+				45A81518291197FD0009AE32 /* Functions.swift in Sources */,
+				457775D12925828B00D84DA0 /* DettaglioEventoView.swift in Sources */,
+				456CB3D329116A8100C2A1EF /* ContentView.swift in Sources */,
+				456CB3D129116A8100C2A1EF /* svolta_serate_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456CB3D929116A8200C2A1EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456CB3E229116A8200C2A1EF /* svolta_serate_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456CB3E329116A8200C2A1EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456CB3EC29116A8200C2A1EF /* svolta_serate_iOSUITests.swift in Sources */,
+				456CB3EE29116A8200C2A1EF /* svolta_serate_iOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		456CB3DF29116A8200C2A1EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456CB3CC29116A8100C2A1EF /* svolta-serate-iOS */;
+			targetProxy = 456CB3DE29116A8200C2A1EF /* PBXContainerItemProxy */;
+		};
+		456CB3E929116A8200C2A1EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456CB3CC29116A8100C2A1EF /* svolta-serate-iOS */;
+			targetProxy = 456CB3E829116A8200C2A1EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		456CB3EF29116A8200C2A1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		456CB3F029116A8200C2A1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		456CB3F229116A8200C2A1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"svolta-serate-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PFZ837FSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Svolta Serate";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davide.vitiello.svolta-serate-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		456CB3F329116A8200C2A1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"svolta-serate-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PFZ837FSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Svolta Serate";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davide.vitiello.svolta-serate-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		456CB3F529116A8200C2A1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PFZ837FSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davide.vitiello.svolta-serate-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/svolta-serate-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/svolta-serate-iOS";
+			};
+			name = Debug;
+		};
+		456CB3F629116A8200C2A1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PFZ837FSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davide.vitiello.svolta-serate-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/svolta-serate-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/svolta-serate-iOS";
+			};
+			name = Release;
+		};
+		456CB3F829116A8200C2A1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PFZ837FSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davide.vitiello.svolta-serate-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "svolta-serate-iOS";
+			};
+			name = Debug;
+		};
+		456CB3F929116A8200C2A1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PFZ837FSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davide.vitiello.svolta-serate-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "svolta-serate-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		456CB3C829116A8100C2A1EF /* Build configuration list for PBXProject "svolta-serate-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456CB3EF29116A8200C2A1EF /* Debug */,
+				456CB3F029116A8200C2A1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456CB3F129116A8200C2A1EF /* Build configuration list for PBXNativeTarget "svolta-serate-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456CB3F229116A8200C2A1EF /* Debug */,
+				456CB3F329116A8200C2A1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456CB3F429116A8200C2A1EF /* Build configuration list for PBXNativeTarget "svolta-serate-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456CB3F529116A8200C2A1EF /* Debug */,
+				456CB3F629116A8200C2A1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456CB3F729116A8200C2A1EF /* Build configuration list for PBXNativeTarget "svolta-serate-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456CB3F829116A8200C2A1EF /* Debug */,
+				456CB3F929116A8200C2A1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		456CB3FC29116C7500C2A1EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		456CB3FD29116C7500C2A1EF /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 456CB3FC29116C7500C2A1EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		456CB3FF29116C7500C2A1EF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 456CB3FC29116C7500C2A1EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		456CB40129116C7500C2A1EF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 456CB3FC29116C7500C2A1EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		456CB40329116C7500C2A1EF /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 456CB3FC29116C7500C2A1EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		456CB40529116C7500C2A1EF /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 456CB3FC29116C7500C2A1EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		456CB40729116C7500C2A1EF /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 456CB3FC29116C7500C2A1EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		456CB40929116C7500C2A1EF /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 456CB3FC29116C7500C2A1EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		456CB40B29116C7500C2A1EF /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 456CB3FC29116C7500C2A1EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 456CB3C529116A8100C2A1EF /* Project object */;
+}
