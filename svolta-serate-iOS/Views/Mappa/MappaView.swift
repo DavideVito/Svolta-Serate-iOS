@@ -14,18 +14,32 @@ struct MappaView: View {
     
     @State public var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 43.333029, longitude: 11.920728), span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
     
+    @State public var evento: Evento?
+    
     var body: some View {
         Map(
             
             coordinateRegion: $region,
             
-            annotationItems: evento_service.eventi, annotationContent: { evento in
+            
+            
+            annotationItems: evento_service.eventi,
+            
+            annotationContent: { evt in
                 
-                MapMarker(coordinate: evento.posizione.toCLLocation())
+                MapAnnotation(coordinate: evt.posizione.toCLLocation())
+                {
+                    CustomPin(evento: evt)
+                        .onTapGesture {
+                            evento = evt
+                        }
+                }
                 
                 
             }
-        )
+        ).sheet(item: $evento, content: { evento in
+            DettaglioEventoView(evento: evento, region: region)
+        })
     
         
         .onAppear(){

@@ -21,7 +21,7 @@ public struct Evento: Identifiable, Hashable{
     }
     
     
-    public  let id = UUID()
+    public let id = UUID()
     
     let descrizione: String
     let data: Date
@@ -73,20 +73,16 @@ class EventoModel: ObservableObject
     
     @Published var eventi = [Evento]()
     
-    
-    func toMapAnnotation()
-    {
-        
-    }
+  
     
     
     func getEventi() {
         
         
         
+    
         
-        
-        db.collection("Eventi").addSnapshotListener ({ querySnapshot, error in
+         db.collection("Eventi").whereField("data", isGreaterThanOrEqualTo: Date()).order(by: "data").getDocuments(completion: { querySnapshot, error in
             
             guard let documents = querySnapshot?.documents else {
                 print("No documents")
@@ -102,7 +98,10 @@ class EventoModel: ObservableObject
                 
             })
             
+            
         })
+            
+         
         
         
         

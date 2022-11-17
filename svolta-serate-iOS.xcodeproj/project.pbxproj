@@ -31,6 +31,7 @@
 		457775CF2925802200D84DA0 /* BlurhashImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457775CE2925802200D84DA0 /* BlurhashImage.swift */; };
 		457775D12925828B00D84DA0 /* DettaglioEventoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457775D02925828B00D84DA0 /* DettaglioEventoView.swift */; };
 		45A81518291197FD0009AE32 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A81517291197FD0009AE32 /* Functions.swift */; };
+		45E16B322926AD7F003FD257 /* CustomPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E16B312926AD7F003FD257 /* CustomPin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		457775CE2925802200D84DA0 /* BlurhashImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurhashImage.swift; sourceTree = "<group>"; };
 		457775D02925828B00D84DA0 /* DettaglioEventoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DettaglioEventoView.swift; sourceTree = "<group>"; };
 		45A81517291197FD0009AE32 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		45E16B312926AD7F003FD257 /* CustomPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +180,7 @@
 		457775C829257D2700D84DA0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				457775C42925720D00D84DA0 /* MappaView.swift */,
+				45E16B302926AD6C003FD257 /* Mappa */,
 				457775C929257D3A00D84DA0 /* ListaView.swift */,
 				457775D02925828B00D84DA0 /* DettaglioEventoView.swift */,
 			);
@@ -200,6 +202,15 @@
 				457775CB29257FA600D84DA0 /* Blurhash.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		45E16B302926AD6C003FD257 /* Mappa */ = {
+			isa = PBXGroup;
+			children = (
+				457775C42925720D00D84DA0 /* MappaView.swift */,
+				45E16B312926AD7F003FD257 /* CustomPin.swift */,
+			);
+			path = Mappa;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +361,7 @@
 				457775CA29257D3A00D84DA0 /* ListaView.swift in Sources */,
 				457775CC29257FA600D84DA0 /* Blurhash.swift in Sources */,
 				457775CF2925802200D84DA0 /* BlurhashImage.swift in Sources */,
+				45E16B322926AD7F003FD257 /* CustomPin.swift in Sources */,
 				457775C52925720E00D84DA0 /* MappaView.swift in Sources */,
 				456CB41229116E3E00C2A1EF /* Evento.swift in Sources */,
 				45A81518291197FD0009AE32 /* Functions.swift in Sources */,
